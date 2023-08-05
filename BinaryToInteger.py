@@ -8,5 +8,5 @@ class Solution:
         to_integer = 0
         while head: 
             to_integer = 2*to_integer + head.val 
-            head = head.next 
+            head = head.next
         return to_integer 
